@@ -1,0 +1,450 @@
+body {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  letter-spacing: 3px;
+}
+
+form {
+  text-align: left;
+}
+
+/* section {
+  width: 100%;
+} */
+
+.banner {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
+.wand-sticky-top-bar {
+  width: 100%;
+  height: 70px;
+  background-color: #1f4468;
+}
+
+.title-div {
+  position: absolute;
+  width: 400px;
+  background-color: #1f4468;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  margin: 40px 0 0 150px;
+  padding: 0.5% 0 0 0;
+  z-index: 5;
+}
+
+
+
+.register-btn {
+  background-color: #1f4468;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  margin: 15px 0 0 900px;
+  padding: 0.5% 1% 0.5% 1%;
+}
+
+
+.land-img-container {
+  width: 100%;
+}
+
+.landing-graphic-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* clip: rect(300px, auto, auto, 0); */
+  z-index: -1;
+}
+
+.h2-welc {
+  margin-top: 150px;
+}
+
+.white-border-spaced {
+  width: 460px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: 2%;
+  margin: 0 auto 0 auto;
+}
+
+.box-bg-inside {
+  height: 320px;
+  /* box below + 200 */
+  background-color: #1f4468;
+  padding-top: 100px;
+  opacity: 0.8;
+}
+
+.land-title-box {
+  height: 120px;
+  width: 300px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding-top: 30px;
+  margin: 0 auto 0 auto;
+}
+
+.h2-dev-loc {
+  font-size: 1rem;
+}
+
+.p-land-tag {
+  font-size: 0.8rem;
+  margin-top: 30px;
+}
+
+.p-land-loc {
+  font-size: 0.7rem;
+}
+
+.h2-disc-mr {
+  margin-top: 40px;
+}
+
+.landing-vert-line {
+  height: 100px;
+  width: 50%;
+  border-color: white;
+  border-right-style: solid;
+  border-width: 3px;
+
+}
+
+
+
+.intro-text {
+  background-color: white;
+  color: #1f4468;
+}
+
+.p-intro-body {
+  font-size: 1.7rem;
+  padding: 60px 200px 70px 200px;
+}
+
+
+
+
+.dev-img-container-div {
+  position: relative;
+  height: 500px;
+  width: 750px;
+  background-image: url("images/albany-house-hr-2-1800-px.jpg");
+  padding-top: 20px;
+  margin-left: 150px;
+  z-index: 2;
+}
+
+.dev-img-inner-img-border {
+  position: relative;
+  height: 460px;
+  width: 710px;
+  /* top: 20;
+  left: 20; */
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  /* margin-top: 20px; */
+  margin-left: 20px;
+}
+
+.brand-colour-border-spaced {
+  position: relative;
+  width: 460px;
+  border-color: #1f4468;
+  border-style: solid;
+  border-width: 2px;
+  padding: 2%;
+  margin: -450px 200px 0 auto;
+  z-index: 3;
+}
+
+.dev-desc-box-bg-inside {
+  /* position: relative; */
+  height: 350px;
+  /* box below + 200 */
+  background-color: #1f4468;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 30px;
+  /* opacity: 0.8; */
+  /* z-index: 6; */
+}
+
+
+
+
+.location-text {
+  height: 1200px;
+  margin-top: -50px;
+}
+
+
+.loc-img-container-div {
+  width: 100%;
+  background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1));
+}
+
+.loc-graphic-img {
+  position: relative;
+  width: 100%;
+  /* clip: rect(300px, auto, auto, 0); */
+
+  z-index: -1;
+}
+
+.loc-desc-white-colour-border-spaced {
+  position: relative;
+  width: 660px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: 2%;
+  margin: -1200px auto 0 auto;
+  z-index: 2;
+}
+
+.loc-desc-box-bg-inside {
+  /* position: relative; */
+  height: 550px;
+  /* box below + 200 */
+  background-color: #1f4468;
+  text-align: left;
+  padding: 20px 30px 0 30px;
+
+  /* opacity: 0.8; */
+  /* z-index: 6; */
+}
+
+
+
+
+
+
+.location-map {
+  background-color: white;
+  color: #1f4468;
+  padding-top: 80px;
+}
+
+.loc-heading-div {
+  width: 400px;
+  background-color: white;
+  border-color: #1f4468;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0 auto 0 auto;
+  padding: 0.5% 0 0 0;
+}
+
+.loc-desc-heading-h1 {
+  width: 100px;
+  margin: 0 auto 0 auto;
+}
+
+.map-placeholder {
+  height: 500px;
+  padding-top: 200px;
+}
+
+
+
+
+
+.transport-links {
+  color: #1f4468;
+  background-color: white;
+  padding: 3% 5% 3% 5%;
+
+}
+
+.transp-heading-div {
+  width: 400px;
+  background-color: white;
+  border-color: #1f4468;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0 0 0 5.5%;
+  padding: 0.5% 0 0 0;
+}
+
+.transp-times-underline-div {
+  width: 250px;
+  border-bottom-style: solid;
+  border-color: #1f4468;
+  border-width: 2px;
+}
+
+.tr-ti-spacer-width {
+  display: inline-block;
+  width: 190px;
+}
+
+.tr-ti-align-right {
+  display: inline-block;
+}
+
+.transp-times {
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.transp-links-img-container-div {
+  /* position: relative; */
+  height: 440px;
+  width: 650px;
+  background-image: url("images/guy-on-train-platform-web.jpg");
+  /* margin-left: 150px; */
+  /* z-index: 2; */
+}
+
+.transp-links-img-fade {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1));
+  padding-top: 20px;
+}
+
+
+
+.transp-links-img-inner-img-border {
+  position: relative;
+  height: 400px;
+  width: 610px;
+  /* top: 20;
+  left: 20; */
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  /* margin-top: 20px; */
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+.registration-form {
+  color: #1f4468;
+  background-color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.reg-heading-div {
+  width: 400px;
+  background-color: #1f4468;
+  color: white;
+  margin: 0 auto 0 auto;
+  padding: 0.5% 0 0 0;
+}
+
+.wandle-form-container-div {
+  width: 90%;
+  border-color: #1f4468;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0 auto 50px auto;
+}
+
+.wandle-form {
+  padding: 100px 0 100px 0;
+}
+
+.wandle-form-row {
+  width: 600px;
+  margin: 0 auto 10px auto;
+}
+
+.form-disclaimer {
+  text-align: left;
+  margin-left: 10%;
+}
+
+
+
+
+
+
+.wandle-text {
+  width: 100%;
+
+}
+
+
+.abt-wandle-container-div {
+  background-image: url("images/couple-in-new-home-web.jpg");
+
+}
+
+.abt-wandle-transp-bg-color {
+  background-color: #1f4468;
+  opacity: 0.8;
+  padding: 3% 10% 10% 10%;
+}
+
+.wandle-logo-abt {
+  width: 250px;
+  padding-bottom: 3%;
+  /* opacity: 2; */
+}
+
+.abt-wandle-body-div {
+  color: white;
+  /* opacity: 1; */
+}
+
+.wandle-tag-abt {
+  font-size: 2.6rem;
+
+}
+
+.wandle-body-abt {
+  text-align: left;
+  font-size: 0.8rem;
+  margin-top: 3%;
+
+}
+
+
+
+
+
+
+
+.footer {
+  background-color: #1f4468;
+  padding: 3% 15% 5% 15%;
+}
+
+.wandle-logo-foot {
+  width: 130px;
+  margin-bottom: 3%;
+}
+
+.wandle-disclaimer {
+  font-size: 0.5rem;
+  margin-bottom: 2%;
+
+}
+
+.YCD-Tag {
+  font-size: 0.7rem;
+}
